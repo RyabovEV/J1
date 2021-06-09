@@ -13,4 +13,7 @@ public class Cat extends Animal{
     Cat (String _name) {
         super(_name,200,0);
     }
+
+    @Override
+    void swimmingAnimal(int dist) { System.out.println(name + " плавать не умеет, это кот/кошка");}
 }
